@@ -1,0 +1,35 @@
+.title {
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  .im {
+    display: flex;
+    justify-content: center;
+  }
+  #image {
+    max-width: 50%;
+    height: auto;
+  }
+  .image {
+    text-align: center;
+  }
+  .content {
+    text-align: justify;
+    margin: 0 20% 0 20%;
+  }
+  h1 {
+    font-size: 2.5vw;
+  }
+  .content > h3 {
+    text-align: center;
+  }
+#footer{
+    display: flex;
+    justify-content: center;
+    
+}  
+#footer>a{
+    text-decoration: none;
+    color: red;
+}

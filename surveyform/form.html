@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="title">
+            <h1 id="title">Junaid Survey Form</h1>
+            <p id="description">Please share your experience with us.</p>
+        </div>
+        <div class="form">
+            <form action="#" id="survey-form">
+                <label for="name" id="name-label">Name</label>
+                <br>
+                <input type="text" id="name" placeholder="Enter Your Name">
+                <br>
+                <label for="email" id="email-label">Email</label>
+                <br>
+                <input type="email" id="email" placeholder="Enter Your Email">
+                <br>
+                <label for="number" id="number-label">Age</label>
+                <br>
+                <input type="number" id="number" min="18" max="99" placeholder="Age">
+                <br>
+                <label for="dropdown">Which option describes you the most?</label>
+                <br>
+                <!-- Dropdown Menu -->
+                <select name="dropdown" id="dropdown">
+                    <option value="1" selected disabled>Select best option</option>
+                    <option value="Student">Student</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Engineer">Engineer</option>
+                    <option value="Programmer">Programmer</option>
+                    <option value="Vella">Vella</option>
+                </select>
+                <br>
+
+                <!-- RadioButtons -->
+                <label for="radio">Who would you recommend our website ?</label>
+                <br>
+                <div id="radio">
+                    <input type="radio" name="choice" id="c1">Friend
+                    <br>
+
+                    <input type="radio" name="choice" id="c2"> Family
+                    <br>
+
+                    <input type="radio" name="choice" id="c3">Soical Media Friends
+                    <br>
+
+                    <input type="radio" name="choice" id="c4">I don't want to recommend your website to anyone.
+                    <br>
+                </div>
+                <!-- Second Dropdown -->
+                <label for="dropdown1">What is your favourite drink?</label>
+                <br>
+                <!-- Dropdown Menu -->
+                <select name="dropdown" id="dropdown1">
+                    <option value="1" selected disabled>Select an option</option>
+                    <option value="Coke">Coke</option>
+                    <option value="tang">Tang</option>
+                    <option value="beer">Beer</option>
+                    <option value="Tea">Tea</option>
+                    <option value="Vanella">Vanella</option>
+                </select>
+                <br>
+
+                <!-- CheckBoxes -->
+                <label for="checkboxes">What do you think we should improve? <span id="small">(select all that
+                        apply)</span></label>
+                <div id="checkboxes">
+                    <input type="checkbox" name="check">Front End Projects
+                    <br>
+                    <input type="checkbox" name="check">Back end Projects
+                    <br>
+                    <input type="checkbox" name="check">Theory
+                    <br>
+                    <input type="checkbox" name="check">Explanations
+                    <br>
+                    <input type="checkbox" name="check">Lowering Ad Frequency
+                    <br>
+                    <input type="checkbox" name="check">Improving GUI
+                    <br>
+                    <input type="checkbox" name="check">Giveaways
+                    <br>
+                    <input type="checkbox" name="check">Adding Video Lectures
+                </div>
+
+                <label for="comments">Please tell us more about your experience.</label>
+                <br>
+                <textarea name="text" id="comments" cols="40" rows="5" placeholder="Enter your suggestion" maxlength="50" style="resize: vertical;"></textarea>
+                <br>
+                <button type="submit" id="button">Submit</button>
+
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
